@@ -63,6 +63,9 @@ Follow these steps to configure and run the downloader.
 ---
 
 Notes
+	
 	•	Uses secure SSL verification by default, falling back to unverified mode if your system certificates are missing (common on macOS).
+	
 	•	Performs read-only operations, nothing is modified or deleted on Freshstatus.
+	
 	•	Requires an API key with access to the incidents and maintenance endpoints.
