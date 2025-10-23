@@ -22,7 +22,7 @@ pip install requests
 
 ---
 
-## Setup & Usage (Full Instructions)
+## Setup & Usage
 
 Follow these steps to configure and run the downloader.
 
@@ -30,10 +30,14 @@ Follow these steps to configure and run the downloader.
     python3 -m venv freshstatus
 
 2 Activate the environment
+
     # macOS / Linux:
-    source ~/freshstatus/bin/activate
-    # Windows:
-    freshstatus\Scripts\activate
+
+	source ~/freshstatus/bin/activate
+    
+	# Windows:
+    
+	freshstatus\Scripts\activate
 
 3 Install dependencies
     pip install requests
@@ -42,15 +46,19 @@ Follow these steps to configure and run the downloader.
 
 5 Edit the script and add your Freshstatus credentials:
     Open FreshstatusDownload.py and update these lines:
+	
     API_KEY = "YOUR-API-KEY"
-    SUBDOMAIN = "YOUR-SUBDOMAIN"
+    
+	SUBDOMAIN = "YOUR-SUBDOMAIN"
 
 6 Run the script
     python3 ~/FreshstatusDownload.py
 
 7 When complete, two files will be created:
+
     incidents_full.json
-    maintenance_full.json
+
+	maintenance_full.json
 
 ---
 
